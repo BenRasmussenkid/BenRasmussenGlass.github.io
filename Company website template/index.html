@@ -150,11 +150,27 @@ text below is not done.
 
 <div class="contact-form">
     <span id="contact"></span>
-    <form action="/index.html">
-        <input type="text" id="Name" name="full-name" placeholder="Gmail">
-        <textarea id="subject" name="subject" placeholder="The Subject" style="height: 200px;"></textarea>
-        <input type="submit" value="Send">
-    </form>
+    <form name="contact" type="file" method="POST" data-netlify="true">
+        <p>
+          <label>Your Name: <input type="text" name="name" /></label>   
+        </p>
+        <p>
+          <label>Your Email: <input type="email" name="email" /></label>
+        </p>
+        <p>
+          <label>Your Role: <select name="role[]" multiple>
+            <option value="leader">Leader</option>
+            <option value="follower">Follower</option>
+          </select></label>
+        </p>
+        <p>
+          <label>Message: <textarea name="message"></textarea></label>
+        </p>
+        <p>
+          <button class="submit-btn" type="submit">Send</button>
+        </p>
+      </form>
+
 </div>
 
 <div class="spacer"></div>

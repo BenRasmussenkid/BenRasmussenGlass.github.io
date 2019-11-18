@@ -377,3 +377,26 @@ input[type=text], select, textarea {
 .glass-blog-title {
     font-family: cursive, sans-serif;
 }
+
+.submit-btn {
+    width: 200px;
+    margin-left: 100vh;
+  background-color: rgba(0, 81, 255, 0.596);
+  color: rgb(255, 255, 255);
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.submit-btn:hover {
+    width: 200px;
+    margin-left: 100vh;
+  background-color: rgba(255, 255, 255, 0.596);
+  color: rgb(91, 158, 111);
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  border: 2px dashed ;
+}
