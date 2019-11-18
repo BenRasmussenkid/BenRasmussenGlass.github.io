@@ -1,0 +1,325 @@
+*{
+    padding: 0;
+    border: none;
+    background: none;
+    margin: 0;
+    box-sizing: border-box;
+    
+}
+
+body{
+    max-width: 414;
+    background-color: white;
+}
+
+.spacer{
+    padding: 1px;
+}
+
+.nav-background{
+    background-color: rgb(255, 255, 255);
+}
+
+.nav-bar{
+    margin-right: 0px;
+    background-color: rgba(255, 255, 255, 0.301);
+    display: flex;
+    flex-direction: row;
+    flex-flow: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.nav{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+.nav-btn{
+ display: none;
+}
+
+.nav-btn-home{
+    display: none;
+}
+
+.nav-btn-shop{
+    display: none;
+}
+
+
+
+.logo{
+    top: 1px;
+    margin-top: 0.5px;
+    padding-top: 1px;
+    font-family: 'Big Shoulders Text', cursive;
+}
+
+.contact-btn{
+    font-size: large;
+    cursor: pointer;
+    padding: 0px;
+    border-style: double;
+}
+
+.nav-btn:hover {
+    color: yellowgreen;
+}
+
+
+
+.contact-btn:hover {
+    color: yellowgreen;
+    background-color: rgba(211, 211, 211, 0.377);
+}
+
+
+
+/*Ben Rasmussen glass effect*/
+.ben:hover {
+    color: rgba(82, 203, 219, 0.74);
+}
+
+.rasmussen:hover {
+    color: rgba(82, 219, 128, 0.74);
+}
+
+.com:hover {
+    color: rgba(194, 219, 82, 0.74);
+}
+
+.glass:hover {
+    color: rgba(255, 102, 0, 0.534);
+}
+
+/*effect end*/
+
+.base-img {
+    color: whitesmoke;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: url(assets/small_purple_fire.jpg);
+    padding-bottom: 150px;
+}
+
+.base-words {
+    justify-content: space-around;
+    align-items: center;
+    margin-right: 150px;
+    display: flex;
+    flex-direction: column;
+    flex-flow: column;
+    padding: 50px;
+    padding-top: 160px;
+}
+
+
+/*spacers*/
+.huge-spacer {
+    padding: 50px;
+}
+
+.spacer {
+    padding: 35px;
+}
+
+.pad {
+    padding: 5.5px;
+    background-color: rgba(58, 46, 46, 0.055);
+}
+
+.small {
+    padding: 5px;
+}
+
+/*end of spacers*/
+
+.about {
+    margin-left: 15%;
+    align-items: center;
+    justify-content: space-around;
+    max-width: 50%;
+
+}
+
+.p-about {
+    margin-left: 17%;
+    font-family:'Courier New', Courier, ;
+    text-align: center;
+    width: 40vh;
+}
+
+.about-title {
+    margin-left: 23%;
+    font-family: cursive, sans-serif;
+    font-size: x-large;
+}
+
+.bio-image {
+    width:25vh;
+    height: 25.5vh;
+    margin-top: -5vh;
+    padding: 1px;
+    margin-left: 60%;
+}
+
+.p-about:active {
+    background-color:rgba(0, 0, 0, 0.678);
+    color: snow;
+}
+
+.skills {
+    font-family: monospace, sans-serif;
+    font-size: large;
+    background-color: rgba(0, 0, 0, 0.024);
+    max-width: 14vh;
+}
+
+
+
+.skills:hover {
+    text-decoration: underline;
+}
+
+.gallery {
+    font-family: cursive, sans-serif;
+    display: flex;
+    flex-flow: column;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    background-color: rgba(0, 0, 0, 0.023);
+}
+
+.art-one {
+    width: 15vh;
+    height: 15.5vh;
+}
+
+.art-one-move {
+    width: 15vh;
+    height: 15.5vh;
+}
+
+.shop {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.img-card {
+    background-color: rgba(161, 161, 161, 0.199);
+    font-size: large;
+    font-family: 'Courier New', Courier, monospace;
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    flex-flow: row;
+    justify-content: space-between;
+    align-items: center;
+    border-color:rgb(108, 173, 71) ;
+    border-style:dotted ;
+    opacity: 1;
+}
+
+.shop-title {
+    font-family: cursive, sans-serif;
+}
+
+.shop-p {
+    color: rgba(0, 0, 0, 0.678);
+    padding: 2px;
+    justify-content: space-around;
+    text-align: center;
+    font-family:'Odibee Sans', cursive; 
+    padding-bottom: 13px;
+}
+
+.shop-p:hover {
+    color: rgba(0, 0, 0, 0.966);
+    padding: 2px;
+    justify-content: space-around;
+    text-align: center;
+    font-family:'Odibee Sans', cursive; 
+    padding-bottom: 13px;
+}
+
+
+
+
+
+input[type=text], select, textarea {
+    display: none;
+    width: 50%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+  }
+  
+  input[type=submit] {
+      display: none;
+      width: 200px;
+      margin-left: 2vh;
+    background-color: rgba(0, 81, 255, 0.596);
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  input[type=submit]:hover {
+      width: 205px;
+      height: 40px;
+      color: rgb(7, 7, 7);
+    background-color: #457ba0;
+  }
+  
+  .container {
+    border-radius: 4px;
+    background-color: #f2f2f2;
+    padding: 20px;
+  }
+
+.-about-my-art-p {
+    text-indent: 2px;
+    text-shadow: rgba(0, 0, 0, 0.024);
+    text-shadow: 1px  rgba(0, 0, 0, 0.024) ;
+    text-align: center;
+    padding: 2px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: medium;
+    font-weight: 100;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.note {
+    display: contents;
+    align-items: center;
+}
+
+/*go fund me link*/
+.gofundme-btn {
+    font-family: 'Segoe UI''Open Sans', 'Helvetica Neue', sans-serif;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.24);
+    border: 2px dotted rgb(107, 170, 91);
+
+}
+
+.gofundme-btn:hover {
+    color: yellowgreen;
+    font-family: 'Segoe UI''Open Sans', 'Helvetica Neue', sans-serif;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.685);
+    border: 2px dotted rgb(53, 104, 197);
+
+}
